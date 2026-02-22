@@ -11,8 +11,8 @@ if choice1 == "left":
         if choice3 == "yellow":
             print("You WIN!!!")
         else:
-            print("Game Over!")
+            print("You chose poorly! Game Over!")
     else:
-        print("Game Over!")
+        print("You were attacked by hungry crocs! Game Over!")
 else:
-    print("Game Over!")
+    print("You fell into a hole! Game Over!")
