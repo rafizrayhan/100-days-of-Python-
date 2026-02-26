@@ -13,5 +13,15 @@ def hurdles():
     move()
     turn_left()
 
+#Using For Loops
+
 for hurdle in range(0,6):
     hurdles()
+
+# Using While Loops
+
+number_of_hurdles = 6
+while number_of_hurdles > 0:
+    hurdles()
+    number_of_hurdles -=1
+    print(number_of_hurdles)
